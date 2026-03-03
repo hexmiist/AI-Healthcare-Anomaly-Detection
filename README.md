@@ -47,7 +47,7 @@ Activity 5.2: Real-time Interactive Dashboard (Chart.js)
 Activity 5.3: PostgreSQL Database Integration
 
 
-Milestone 6: Validation & Deployment
+➡️Milestone 6: Validation & Deployment
 Activity 6.1: System Testing
 
 Activity 6.2: End-to-End Validation
