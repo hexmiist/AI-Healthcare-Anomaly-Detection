@@ -71,3 +71,10 @@ This project is structured into six milestones to ensure reliability and scalabi
   * **Machine Learning:** `scikit-learn`, `tensorflow`.
   * **Streaming & DB:** `kafka-python`, `psycopg2-binary`.
   * **Backend:** `flask`, `flask-cors`.
+
+### Activity 1.3: Project Structure Setup ✅
+* **Status**: Completed by Aanya Sharma
+* **Folder Hierarchy**: 
+    * Organized SQL schema into `/database` for version control.
+    * Segregated automation logic into `/scripts`.
+    * Maintained dataset integrity in the project root for easy access during validation.
