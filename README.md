@@ -54,3 +54,20 @@ This project is structured into six milestones to ensure reliability and scalabi
 * **Activity 6.1:** Comprehensive System Testing
 * **Activity 6.2:** End-to-End System Validation
 * **Activity 6.3:** GitHub Version Control & Deployment [cite: Activity 6
+
+## 🟢 Milestone 1: Environment Setup & Project Initialization
+
+### Activity 1.1: Python Environment Setup ✅
+* **Status:** Completed by Aanya Sharma
+* **Python Version:** 3.13.7 (Verified using `python --version`)
+* **Virtual Environment:** * Created a dedicated environment named `venv` to isolate dependencies.
+  * Activation confirmed via `venv\Scripts\activate`.
+
+### Activity 1.2: Dependency Installation ✅
+* **Status:** Completed
+* **Method:** Centralized installation using `pip install -r requirements.txt`.
+* **Core Libraries Installed:**
+  * **Data & Math:** `pandas`, `numpy`, `matplotlib`.
+  * **Machine Learning:** `scikit-learn`, `tensorflow`.
+  * **Streaming & DB:** `kafka-python`, `psycopg2-binary`.
+  * **Backend:** `flask`, `flask-cors`.
