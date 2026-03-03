@@ -1,4 +1,34 @@
 # AI-Healthcare-Anomaly-Detection
+🛠️ Pre-requisites
+Before running this project, ensure you have the following installed and configured:
+
+1. Core Software
+🐍 Python 3.9+: The primary programming language for AI and backend logic.
+
+🎢 Apache Kafka: Used for real-time data streaming of patient vitals.
+
+🗄️ PostgreSQL: The database for persistent storage of detected anomalies.
+
+🐙 Git: For version control and project management.
+
+2. Python Dependencies
+Install the required libraries using the following command:
+
+Bash
+pip install flask flask-cors kafka-python psycopg2-binary tensorflow scikit-learn pandas numpy
+🧠 AI/ML: tensorflow, scikit-learn.
+
+🌐 Backend: flask, flask-cors.
+
+📊 Data: pandas, numpy.
+
+3. External Configurations
+📧 Gmail App Password: Required for the SMTP Email Alert System to send emergency notifications.
+
+🔑 Kafka Broker: Ensure Zookeeper and Kafka server are running on localhost:9092
+
+
+
 🎯Project Workflow & Milestones
   This project follows a structured development lifecycle to ensure real-time accuracy and system reliability.
 
