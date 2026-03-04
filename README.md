@@ -55,32 +55,25 @@ This project is structured into six milestones to ensure reliability and scalabi
 * **Activity 6.2:** End-to-End System Validation
 * **Activity 6.3:** GitHub Version Control & Deployment [cite: Activity 6
 
-## 🟢 Milestone 1: Environment Setup & Project Initialization
 
-### Activity 1.1: Python Environment Setup ✅
-* **Status:** Completed by Aanya Sharma
-* **Python Version:** 3.13.7 (Verified using `python --version`)
-* **Virtual Environment:** * Created a dedicated environment named `venv` to isolate dependencies.
-  * Activation confirmed via `venv\Scripts\activate`.
+## 🏁 Milestone 1: Environment Setup & Data Integration
 
-### Activity 1.2: Dependency Installation ✅
-* **Status:** Completed
-* **Method:** Centralized installation using `pip install -r requirements.txt`.
-* **Core Libraries Installed:**
-  * **Data & Math:** `pandas`, `numpy`, `matplotlib`.
-  * **Machine Learning:** `scikit-learn`, `tensorflow`.
-  * **Streaming & DB:** `kafka-python`, `psycopg2-binary`.
-  * **Backend:** `flask`, `flask-cors`.
+### ✅ Activity 1.1: Python Environment Configuration
+* **Status**: Completed
+* **Configuration**: Successfully initialized a virtual environment (`.venv`) using Python 3.13.7.
+* **Isolation**: All project dependencies are isolated within the local environment to ensure version consistency.
 
-### Activity 1.3: Project Structure Setup ✅
-* **Status**: Completed by Aanya Sharma
-* **Folder Hierarchy**: 
-    * Organized SQL schema into `/database` for version control.
-    * Segregated automation logic into `/scripts`.
-    * Maintained dataset integrity in the project root for easy access during validation.
+### ✅ Activity 1.2: Dependency Installation
+* **Status**: Completed
+* **Libraries**: Installed core stack including `pandas`, `matplotlib`, `numpy`, `tensorflow`, and `psycopg2-binary` via `requirements.txt`.
+
+### ✅ Activity 1.3: Dataset Validation & PostgreSQL Integration
+* **Status**: Completed
+* **Data Source**: Integrated `human_vital_signs_dataset_2024.csv` from Kaggle into the pipeline.
+* **Database**: Established connection with PostgreSQL 17 and verified the existence of the `human_vitals` table.
 
 ### Activity 1.4: Project Structure Setup ✅
-* **Status**: Completed by Aanya Sharma
+* **Status**: Completed
 * **Objective**: Implementation of a modular directory structure to separate data, models, streaming logic, and backend services.
 * **Directory Breakdown**:
     * `/app`: Contains backend API and service logic.
