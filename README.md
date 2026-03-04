@@ -72,9 +72,8 @@ This project is structured into six milestones to ensure reliability and scalabi
 * **Data Source**: Integrated `human_vital_signs_dataset_2024.csv` from Kaggle into the pipeline.
 * **Database**: Established connection with PostgreSQL 17 and verified the existence of the `human_vitals` table.
 
-### Activity 1.4: Project Structure Setup ✅
+### ✅ Activity 1.4: Project Structure Setup
 * **Status**: Completed
-* **Objective**: Implementation of a modular directory structure to separate data, models, streaming logic, and backend services.
 * **Directory Breakdown**:
     * `/app`: Contains backend API and service logic.
     * `/data`: Stores the validated 2024 healthcare dataset.
