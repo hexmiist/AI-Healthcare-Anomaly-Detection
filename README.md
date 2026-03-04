@@ -78,3 +78,15 @@ This project is structured into six milestones to ensure reliability and scalabi
     * Organized SQL schema into `/database` for version control.
     * Segregated automation logic into `/scripts`.
     * Maintained dataset integrity in the project root for easy access during validation.
+
+### Activity 1.4: Project Structure Setup ✅
+* **Status**: Completed by Aanya Sharma
+* **Objective**: Implementation of a modular directory structure to separate data, models, streaming logic, and backend services.
+* **Directory Breakdown**:
+    * `/app`: Contains backend API and service logic.
+    * `/data`: Stores the validated 2024 healthcare dataset.
+    * `/models`: Dedicated repository for serialized machine learning models.
+    * `/notebooks`: Used for exploratory data analysis (EDA) and prototyping.
+    * `/utils`: Contains helper scripts for database migration and data validation.
+    * `/venv`: Isolated Python 3.13.7 virtual environment.
+* **Automation**: Initialized root batch files (`start_all.bat`, `start_kafka.bat`,`start_consumer.bat`,`start_producer.bat`,`streaming_consumer_ml.py`,`requirements.txt`) to streamline the project environment startup.
