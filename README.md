@@ -55,6 +55,7 @@ This project is structured into six milestones to ensure reliability and scalabi
 * **Activity 6.2:** End-to-End System Validation
 * **Activity 6.3:** GitHub Version Control & Deployment [cite: Activity 6
 
+---
 
 ## 🏁 Milestone 1: Environment Setup & Data Integration
 
