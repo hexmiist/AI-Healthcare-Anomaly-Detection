@@ -114,6 +114,15 @@ jupyter notebook
 
 ---
 
+## Team Members
+
+- **Gourav Sharma** – Team Lead  
+- **Aanya Sharma** – Team member
+- **Ritik** – Team member  
+- **Vansh** – Team member  
+
+---
+
 ## Future Improvements
 
 - Implement deep learning based anomaly detection
