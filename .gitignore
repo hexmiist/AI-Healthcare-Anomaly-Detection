@@ -1,0 +1,18 @@
+# Environments
+venv/
+env/
+.env
+
+# Python logs
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data & Models (Optional: keep these if you want them on GitHub)
+# *.csv
+# *.pkl
+# *.h5
